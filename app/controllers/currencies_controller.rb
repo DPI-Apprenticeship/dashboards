@@ -8,4 +8,11 @@ class CurrenciesController < ApplicationController
 
   render({ :template => "currency_templates/step_one.html.erb" })
  end 
+
+ def second_currency 
+
+  render({ :template => "currency_templates/step_two.html.erb" })
+ end 
+ 
+
 end
